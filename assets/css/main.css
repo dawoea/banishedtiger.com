@@ -3505,6 +3505,16 @@ body.is-loading #banner p {
     -ms-flex: 2;
 }
 
+.wrapper.spotlight .content ul li {
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+
+.wrapper.spotlight .content .right li {
+    float: right;
+}
+
 .wrapper.spotlight:nth-child(2n - 1) .inner {
     -moz-flex-direction: row-reverse;
     -webkit-flex-direction: row-reverse;
