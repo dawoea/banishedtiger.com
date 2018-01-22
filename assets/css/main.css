@@ -1628,7 +1628,7 @@ select,
 textarea {
     color: #ffffff;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 16.5pt;
+    font-size: 14.5pt;
     font-weight: 300;
     line-height: 1.65;
 }
@@ -3092,7 +3092,7 @@ body.is-menu-visible #menu .inner {
 /* Banner */
 
 #banner {
-    padding: 10em 0 4.75em 0;
+    padding: 10em 0 3.75em 0;
 }
 
 #banner .inner {
@@ -3516,13 +3516,16 @@ body.is-loading #banner p {
 }
 
 .wrapper.spotlight .content ul li {
-    list-style: none;
+    list-style-type: circle;
     text-decoration: none;
     position: relative;
 }
 
-.wrapper.spotlight .content .right li {
-    float: right;
+.wrapper.spotlight .content .vidoe li {
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    float: left;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner {
@@ -3530,7 +3533,7 @@ body.is-loading #banner p {
     -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
-    text-align: right;
+    /* text-align: right; */
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .image {
