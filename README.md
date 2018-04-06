@@ -1,4 +1,4 @@
-# BanishedTiger 
+# BanishedTiger
 
 The website for [banishedtiger.com](https://banishedtiger.com)
 
