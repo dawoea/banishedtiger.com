@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
+@import url("https://fonts.proxy.ustclug.org/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 @font-face {
     font-family: "iconfont";
     src: url('//at.alicdn.com/t/font_377143_dthcmw32seqrrudi.eot?t=1515487830184');
@@ -3764,6 +3764,10 @@ body.is-loading #banner p {
 
 #footer .inner .copyright li a {
     color: inherit;
+}
+
+#footer .inner .atlast {
+    color: rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width: 1280px) {
