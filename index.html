@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <link rel="stylesheet" href="https://cdn.dawoea.net/video.js/7.0.0/alt/video-js-cdn.min.css">
     </head>
 
     <body>
@@ -63,7 +64,7 @@
                         <h2>刀客：丧家之虎<small> Daoker:A Banished Tiger</small></h2>
                     </div>
                     <p>
-                        我叫张牧之，这是我拯救旧（guo）世(chan)中(you)国(xi)的故事
+                        我叫张牧之，这是我拯救旧（guo）世（chan）中（you）国（xi）的故事
                     </p>
                 </div>
             </section>
@@ -76,23 +77,10 @@
                     <div class="inner">
                         <div class="content">
                             <h2 class="major">游戏视频：这是你妹有挽过的船新版本</h2>
-                            <ul class="vidoe">
-                                <a href="#" target="_blank">
-                                    <li>
-                                        <img src="images/pic01.jpg" alt="" />
-                                    </li>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <li>
-                                        <img src="images/pic02.jpg" alt="" />
-                                    </li>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <li>
-                                        <img src="images/pic03.jpg" alt="" />
-                                    </li>
-                                </a>
-                            </ul>
+                            <video id="video" class="video-js vjs-big-play-centered" controls preload="auto" width="640" height="320" data-setup='{"height":320}'>
+                                <source id="sourceBox" src="https://steamcdn.addones.org/steam/apps/256713438/movie_max.webm?t=1526044146" type='video/mp4'>
+                                <p class="vjs-no-js">不支持播放</p>
+                            </video>
                         </div>
                     </div>
                 </section>
@@ -162,40 +150,39 @@
                 <section class="wrapper alt style1">
                     <div class="inner">
                         <h2 class="major">我们的游戏特色</h2>
-                        <p>开通 Addones + 可以下载4k无码图片</p>
                         <section class="features">
                             <article>
-                                <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn.addones.org/steam/apps/839500/ss_c1f8d4c61627243b22a0c8c0df2679ed8fa14f30.600x338.jpg?t=1526044152!/format/webp/" alt="" /></a>
                                 <h3 class="major">生存</h3>
                                 <p>挑战严酷的自然环境，合理利用环境资源，养活自己</p>
                                 <a href="#" class="special">Learn more</a>
                             </article>
                             <article>
-                                <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn.addones.org/steam/apps/839500/ss_d050780d4feffd71f417a6b13848b15ae4672c30.600x338.jpg?t=1526044152" alt="" /></a>
                                 <h3 class="major">战斗</h3>
                                 <p>升级，加点，招兵买马，打造私人武装，运用小队战术获取胜利</p>
                                 <a href="#" class="special">Learn more</a>
                             </article>
                             <article>
-                                <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn-a.akamaihd.net/steam/apps/839500/ss_80536647bd6b560c73d2acf41e95b8eb8d14e466.600x338.jpg?t=1526044152" alt="" /></a>
                                 <h3 class="major">据点经营</h3>
                                 <p>占领据点，发展根据地，获取资源，生产货物，成为一方霸主</p>
                                 <a href="#" class="special">Learn more</a>
                             </article>
                             <article>
-                                <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn-a.akamaihd.net/steam/apps/839500/ss_a71746c5699bced17113919b781a64c212ce165e.600x338.jpg?t=1526044152" alt="" /></a>
                                 <h3 class="major">政治博弈</h3>
                                 <p>运用策略手段，支持或打压革命党和保皇派势力，推演属于自己的历史结局</p>
                                 <a href="#" class="special">Learn more</a>
                             </article>
                             <article>
-                                <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn-a.akamaihd.net/steam/apps/839500/ss_968ef93ccfdcd54bd3acc5748c0bb9dcc4e54f89.600x338.jpg?t=1526044152" alt="" /></a>
                                 <h3 class="major">贸易战</h3>
                                 <p>革命党和保皇派使用不同的法定货币，各地党派支持率将实时影响本地货币币值，进而影响全局贸易</p>
                                 <a href="#" class="special">Learn more</a>
                             </article>
                             <article>
-                                <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                                <a href="#" class="image"><img src="https://steamcdn.addones.org/steam/apps/839500/ss_a71746c5699bced17113919b781a64c212ce165e.600x338.jpg?t=1526044152" alt="" /></a>
                                 <h3 class="major">瞬息万变的战场</h3>
                                 <p>数百个战场将按区域和战略地图的地形表现一一对应，并按真实时间实现实时昼夜交替及天气变化，对战局产生微妙影响</p>
                                 <a href="#" class="special">Learn more</a>
@@ -233,15 +220,18 @@
                             <a href="https://weibo.com/u/3826435090" target="_blank">
                                 <li class="fa-weibo"></li>
                             </a>
-                            <a class="weixin" href="javascript;">
+                            <a class="weixin">
                                 <li class="fa-wechat">
-                                    <img src="images/pic02.jpg" alt="" />
+                                    <img src="images/wechat_qrcode.jpg" alt="" />
                                 </li>
                             </a>
                             <a href="https://www.zhihu.com/org/da-wo-dian-yi" target="_blank">
                                 <li>
                                     <i class="iconfont aone-zhihu"></i>
                                 </li>
+                            </a>
+                            <a href="https://github.com/dawoea" target="_blank">
+                                <li class="fa-github"></li>
                             </a>
                         </ul>
                     </div>
@@ -250,7 +240,7 @@
                         <li><abbr title="Daoker:A Banished Tiger">《刀客：丧家之虎》</abbr> <i class="fa fa-copyright"></i>&ensp;2018 </li>
                         <li><abbr title="WorkingSucks.Studio™">不想上班工作室™</abbr></li>
                         <li><abbr title="大理大沃网络科技有限公司">大沃电艺</abbr>（ <abbr title="Dali Dawo Electronic interactive Art.Ltd">DawoEA Inc.</abbr> ） 保留所有权利</li>
-                        <li>滇ICP备17005822号</li>
+                        <li>滇 ICP 备 17005822 号</li>
                     </ul>
                     <center class="atlast">Crafted by DawoEA in Dali</center>
                 </div>
@@ -262,6 +252,7 @@
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/jquery.scrollex.min.js"></script>
         <script src="assets/js/util.js"></script>
+        <script src="https://cdn.dawoea.net/video.js/7.0.0/video.min.js"></script>
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
     </body>
