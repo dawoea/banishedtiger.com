@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="dist/app.css" />
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-        <link rel="stylesheet" href="https://cdn.dawoea.net/video.js/7.0.0/alt/video-js-cdn.min.css">
+        <link rel="stylesheet" href="https://cdn.dawoea.net/plyr/3.3.12/plyr.css">
     </head>
 
     <body>
@@ -77,10 +77,11 @@
                     <div class="inner">
                         <div class="content">
                             <h2 class="major">游戏视频：这是你妹有挽过的船新版本</h2>
-                            <video id="video" class="video-js vjs-big-play-centered" controls preload="auto" width="640" height="320" data-setup='{"height":320}'>
-                                <source id="sourceBox" src="https://steamcdn.addones.org/steam/apps/256713438/movie_max.webm?t=1526044146" type='video/mp4'>
-                                <p class="vjs-no-js">不支持播放</p>
-                            </video>
+                            <div class="container">
+                                <video controls crossorigin playsinline poster="https://steamcdn-a.akamaihd.net/steam/apps/256713438/movie.293x165.jpg">
+                                    <source src="https://steamcdn.addones.org/steam/apps/256713438/movie_max.webm" type="video/webm">
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -188,9 +189,6 @@
                                 <a href="#" class="special">Learn more</a>
                             </article>
                         </section>
-                        <ul class="actions">
-                            <li><a href="#" class="button">查看更多</a></li>
-                        </ul>
                     </div>
                 </section>
             </section>
@@ -199,10 +197,11 @@
             <footer id="footer">
                 <div class="inner">
                     <p>感谢您对 不想上班工作室™ 首款作品《刀客：丧家之虎》的关注与支持。<br>
-                       您可以通过在下方输入邮箱来订阅我们的项目更新新闻，也可以通过论坛或顶页菜单中的『联系我们』，向我们反馈任何游戏方面的意见和建议。<br>
+                       您可以通过 <a href="https://forum.banishedtiger.com">社区</a> 或顶页菜单中的『联系我们』，向我们反馈任何游戏方面的意见和建议。<br>
                        《刀客：丧家之虎》是工作室的第一款作品，较之大型公司，我们的开发和发行经验都有所欠缺，我们会尽可能在第一时间解决玩家反馈的问题，感谢您的支持与理解！
                     </p>
                     <div class="contact">
+                        <small>您还可以在这里找到我们：</small>
                         <ul>
                             <a href="https://twitter.com/BanishedTiger" target="_blank">
                                 <li class="fa-twitter"></li>
@@ -241,7 +240,7 @@
         <script src="https://cdn.dawoea.net/skel/3.0.1/skel.min.js"></script>
         <script src="https://cdn.dawoea.net/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://cdn.dawoea.net/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
-        <script src="https://cdn.dawoea.net/video.js/7.0.0/video.min.js"></script>
+        <script src="https://cdn.dawoea.net/plyr/3.3.12/plyr.min.js"></script>
         <!--[if lte IE 8]><script src="https://cdn.dawoea.net/respond.js/1.4.2/respond.min.js"></script><![endif]-->
         <script src="dist/app.js"></script>
     </body>
